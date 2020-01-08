@@ -1,4 +1,4 @@
 module.exports = {
-  extends: ['aqsc'],
+  extends: ['eslint-config-aqsc'].map(require.resolve),
   plugins: ['aqsc'],
 }
